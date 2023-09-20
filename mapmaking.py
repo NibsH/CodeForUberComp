@@ -3,7 +3,7 @@ import folium
 
 
 
-df = pd.read_csv(r"C:\Users\nabal\Downloads\bus_stops.csv",sep=",")
+df = pd.read_csv(r"bus_stops.csv",sep=",")
 df = df.sort_values(by=['District.Name'])
 
 
