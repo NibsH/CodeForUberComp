@@ -1,7 +1,7 @@
 import geopandas as gpd
 import folium
 
-gdf = gpd.read_file(r"C:\Users\nabal\Downloads\shapefiles_barcelona_distrito.shp")
+gdf = gpd.read_file(r"shapefiles_barcelona_distrito.shp")
 
 
 barcelona_map = folium.Map(location=[41.3851, 2.1734], zoom_start=12)
