@@ -18,7 +18,7 @@ unemployment_df['Number'] = unemployment_df['Number'] .round().astype(int)
 unemployment_df.to_csv(r'C:\Users\nabal\Downloads\unemployment3.csv', index=False)
 
 
-unemployment_df = pd.read_csv(r'C:\Users\nabal\Downloads\unemployment3.csv')
+unemployment_df = pd.read_csv(r'unemployment3.csv')
 
 
 plt.figure(figsize=(10, 6))
