@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-unemployment_df = pd.read_csv(r'C:\Users\nabal\Downloads\unemployment.csv')
+unemployment_df = pd.read_csv(r'unemployment.csv')
 unemployment_df = unemployment_df[unemployment_df['Year'] == 2017]
 unemployment_df  = unemployment_df .drop('Neighborhood Name', axis=1)
 unemployment_df  = unemployment_df .drop('Demand_occupation', axis=1)
