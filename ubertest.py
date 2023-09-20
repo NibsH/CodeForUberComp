@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-population_df = pd.read_csv(r'C:\Users\nabal\Downloads\population.csv')
+population_df = pd.read_csv(r'population.csv')
 age_ranges = ['0-4', '5-9', '10-14', '15-19','65-69', '70-74', '75-79', '80-84', '85-89', '90-94','>=95']
 population_df = population_df[~population_df['Age'].isin(age_ranges)]
 population_df = population_df[population_df['Year'] == 2017]
