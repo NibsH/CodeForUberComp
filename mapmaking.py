@@ -37,4 +37,4 @@ for index,row in coords.iterrows():
     folium.Marker(location=[row["Latitude"],row["Longitude"]],
                   popup=row["District.Name"], icon=folium.Icon(color=mcolor),).add_to(city_map)
 
-city_map.save(r"C:\Users\nabal\Downloads\city_map2.html")
+city_map.save(r"city_map2.html")
