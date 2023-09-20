@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-unemployment_df = pd.read_csv(r'C:\Users\nabal\Downloads\unemployment3.csv')
+unemployment_df = pd.read_csv(r'unemployment3.csv')
 
 
 plt.figure(figsize=(10, 6))
